@@ -13,3 +13,8 @@
     left: 0;
     top: 0;
 }
+
+.containers{
+    max-width: 1300px;
+    margin: 0 auto;
+}

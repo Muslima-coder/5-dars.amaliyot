@@ -1,3 +1,4 @@
 import NavItem from "./NavItem";
+import NumberCard from "./NumberCard";
 
-export {NavItem}
+export {NavItem, NumberCard}

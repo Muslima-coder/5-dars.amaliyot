@@ -66,3 +66,4 @@ export const NotificationIcon = () => <svg width="18" height="19" viewBox="0 0 1
 <circle cx="13" cy="5" r="3.75" fill="#3751FF" stroke="#F7F8FC" strokeWidth="1.5"/>
 </svg>
 
+

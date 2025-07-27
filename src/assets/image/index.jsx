@@ -1,3 +1,3 @@
-import UserPhoto from "./UserPhoto.svg"
+import NigoraBro from "./NigoraBro.jpg"
 
-export {UserPhoto}
+export {NigoraBro}

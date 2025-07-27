@@ -3,9 +3,10 @@ import { Agents, Articles, Contacts, Ideas, Overview, Settings, Subscription, Ti
 import { Header, Navbar } from "./modules"
 const App = () => {
   return (
-    <div className="flex">
+    <div className="containers">
+    <div className="  flex h-[100vh] ">
       <Navbar/>
-      <div className="w-[80%] h-[100vh]">
+      <div className="max-w-[80%] ">
         <Header/>
         <Routes>
           <Route path="/" element={<Overview/>}/>
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/subscription" element={<Subscription/>}/>
         </Routes>
       </div>
+    </div>
     </div>
       
     
