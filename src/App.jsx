@@ -3,10 +3,10 @@ import { Agents, Articles, Contacts, Ideas, Overview, Settings, Subscription, Ti
 import { Header, Navbar } from "./modules"
 const App = () => {
   return (
-    <div className="containers">
+    <div className="containers relative">
     <div className="  flex h-[100vh] ">
       <Navbar/>
-      <div className="max-w-[80%] ">
+      <div className="max-w-[80%] absolute right-0">
         <Header/>
         <Routes>
           <Route path="/" element={<Overview/>}/>
