@@ -6,7 +6,7 @@ const App = () => {
     <div className="containers">
     <div className="flex h-[100vh] ">
       <Navbar/>
-      <div className="w-[80%] overflow-y-auto h-[100vh]">
+      <div className="w-[80%] overflow-y-auto h-[100vh] bg-[#F7F8FC]">
         <Header/>
         <Routes>
           <Route path="/" element={<Overview/>}/>
