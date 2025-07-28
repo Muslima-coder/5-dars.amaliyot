@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className="capitalize p-[30px] relative flex items-center justify-between">
       
-      <div className={`${currentPath !== "overview" ? "absolute right-230" : ""}`}>
+      <div className={`${currentPath !== "overview" ? "" : ""}`}>
         <p className="font-bold text-[24px] text-[#252733]">
           {currentPath}
         </p>
