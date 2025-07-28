@@ -3,7 +3,7 @@ import { AgentsLogo, ArticlesLogo, ContactsLogo, IdeasLogo, MainLogoIcon, Overvi
 import { NavItem } from '../components'
 const Navbar = () => {
   return (
-    <div className='fixed left-0 bg-[#363740] w-[20%] min-h-[100vh]'>
+    <div className=' bg-[#363740] w-[20%] overflow-y-auto h-[100vh]'>
      <Link className={'py-[18px]  text-[#DDE2FF] pl-[32px] flex items-center gap-[12px] '}>
       <MainLogoIcon/>
      <span>{"Dashboard Kit"}</span>
